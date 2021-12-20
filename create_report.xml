@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#17020202"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/createReportLayout"
+    tools:context=".CreateReportClass">
+
+    <TextView
+        android:id="@+id/weather"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#00B0FF"
+        android:text="Weather right now"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/photoOfIncident"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#FFFFFF"
+        android:textAlignment="center"></ImageView>
+
+    <Button
+        android:id="@+id/takePhoto"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="#4A00B0FF"
+        android:text="Take Photo"
+        android:textSize="12sp"></Button>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details of Report: "
+        android:textColor="#050505"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/detailsOfReport"
+        android:gravity="top|left"
+        android:layout_width="match_parent"
+        android:layout_height="233dp"
+        android:background="#FDFDFD"
+        android:hint="Type here..." />
+
+    <Button
+        android:id="@+id/saveCreate"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:background="#4A00B0FF"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/goBack"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:background="#4A00B0FF"
+        android:text="Back" />
+
+</LinearLayout>
